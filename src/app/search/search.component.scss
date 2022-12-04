@@ -1,0 +1,39 @@
+@import 'https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/Kanit/Kanit.css';
+
+table,th{
+    border: 1px solid rgb(135, 171, 222);
+    background-color: rgb(135, 171, 222);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7.5rem;
+    
+
+}
+body{
+
+    font-family: 'Kanit', sans-serif;
+}
+input{ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    
+}
+
+h1{
+    margin-left: 29rem;
+    font-size: 1.5rem;
+    
+}
+
+tr{
+    background-color: aliceblue;
+}
+hr{
+    width: 65rem;
+
+}

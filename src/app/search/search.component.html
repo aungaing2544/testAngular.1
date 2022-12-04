@@ -1,0 +1,27 @@
+<!-- <p>search works!</p> -->
+<body>
+<br>
+<h1>Please Key your movie ID!</h1>
+
+ 
+<input [(ngModel)] = "movieId">
+<app-show (show)="getData($event)"[movieIdShow]="movieId"></app-show>
+
+ <hr>
+<table style="width:80%" >
+    <tr>
+      <th>Movie ID</th>
+      <th>Namemovie</th>
+      <th>Typemovie</th>
+      <th>Movieprice</th>
+     
+    </tr>
+    <tr>
+        <td>{{movieShow.Movieid}}</td>
+        <td>{{movieShow.NameMovie}}</td>
+        <td>{{movieShow.TypeMovie}}</td>
+        <td>{{movieShow.MoviePrice}}</td>
+    </tr>
+    
+  </table>
+</body>
